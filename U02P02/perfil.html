@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página de Perfil</title>
+</head>
+<body>
+  <h1>Mi Perfil</h1>
+
+
+  <form>
+    <label for="role">Ocupación:</label>
+    <input type="text" id="role" name="role" value="ESTUDIANTE" readonly><br><br>
+    <label for="fullname">Nombre Completo:</label>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="age">Edad:</label>
+    <input type="number" id="age" name="age" required><br><br>
+    <label for="nationality">Nacionalidad:</label>
+    <select id="nationality" name="nationality">
+      <option value="option1">Argentina</option>
+      <option value="option2">Chile</option>
+      <option value="option3">Uruguay</option>
+      <option value="option1">Bolivia</option>
+      <option value="option2">Perú</option>
+      <option value="option3">Paraguay</option>
+      
+    </select><br><br>
+    <label for="employment">Condición Laboral:</label>
+    <select id="employment" name="employment">
+      <option value="desempleado">Desempleado</option>
+      <option value="busqueda">En Búsqueda Laboral</option>
+      <option value="part-time">Trabajo Part Time</option>
+      <option value="full-time">Trabajo Full Time</option>
+    </select><br><br>
+    <h2>Gustos Personales</h2>
+    <label for="music">Gustos Musicales:</label>
+    <input type="text" id="music" name="music"><br><br>
+    <label for="food">Comidas Preferidas:</label>
+    <select id="food" name="food">
+      <option value="comida1">Comida 1</option>
+      <option value="comida2">Comida 2</option>
+      <option value="comida3">Comida 3</option>
+    </select><br><br>
+    <input type="checkbox" id="remember" name="remember">
+    <label for="remember">Recordar mis datos</label><br><br>
+    <input type="submit" value="Guardar Cambios">
+  </form>
+</body>
+</html>
