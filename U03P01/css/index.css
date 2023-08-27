@@ -1,1 +1,60 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 245);
+  }
 
+  h1 {
+    font-size: 24px;
+    color: #242424;
+    font-weight: 900;
+  }
+  
+
+  h2 {
+    font-size: 20px;
+    color: #606060;
+    font-weight: 800;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 30px 0;
+  }
+
+  ul {
+    font-family: monospace;
+    font-size: 18px;
+    list-style-type: none;
+    margin-left: 100px;
+    padding: 20px;
+    border: 2px solid blue;
+    max-width: 40%;
+  }
+  
+  a {
+    font-weight: bold;
+  }
+  
+  ul li a {
+    color: orange;
+    text-decoration: underline;
+  }
+  
+  ul li a[href="#Neuquén"],
+  ul li a[href="#Río_Negro"] {
+    color: green;
+  }
+  
+
+  ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+
+  ul li {
+    padding: 10px;
+  }
+  
